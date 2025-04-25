@@ -7,11 +7,12 @@ import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import MyAppionments from "./pages/MyAppionments";
 import Appionment from "./pages/Appionment";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-      <div>
-        Header
+      <Navbar />
+      <div className="mx-5 sm:mx-[10%] pt-16">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/doctors" element={<Doctors />} />
