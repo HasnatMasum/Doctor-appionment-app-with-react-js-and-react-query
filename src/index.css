@@ -1,1 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+}
+.navlist li a.active {
+  @apply text-fuchsia-700;
+}
