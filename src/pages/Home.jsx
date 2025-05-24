@@ -1,7 +1,15 @@
-import React from "react";
+import BookDoctor from "../components/BookDoctor";
+import CatMenu from "../components/CatMenu";
+import Header from "../components/Header";
 
 const Home = () => {
-  return <div>home</div>;
+  return (
+    <>
+      <Header />
+      <CatMenu />
+      <BookDoctor />
+    </>
+  );
 };
 
 export default Home;

@@ -3,7 +3,7 @@
     {
       "_id": "doc1",
       "name": "Dr. Richard James",
-      "image": "./assets/images/doc1.png",
+      "image": "../src/assets/images/doc1.png",
       "speciality": "General physician",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -17,7 +17,7 @@
     {
       "_id": "doc2",
       "name": "Dr. Emily Larson",
-      "image": "./assets/images/doc2.png",
+      "image": "../src/assets/images/doc2.png",
       "speciality": "Gynecologist",
       "degree": "MBBS",
       "experience": "3 Years",
@@ -31,7 +31,7 @@
     {
       "_id": "doc3",
       "name": "Dr. Sarah Patel",
-      "image": "./assets/images/doc3.png",
+      "image": "../src/assets/images/doc3.png",
       "speciality": "Dermatologist",
       "degree": "MBBS",
       "experience": "1 Years",
@@ -45,7 +45,7 @@
     {
       "_id": "doc4",
       "name": "Dr. Christopher Lee",
-      "image": "./assets/images/doc4.png",
+      "image": "../src/assets/images/doc4.png",
       "speciality": "Pediatricians",
       "degree": "MBBS",
       "experience": "2 Years",
@@ -59,7 +59,7 @@
     {
       "_id": "doc5",
       "name": "Dr. Jennifer Garcia",
-      "image": "./assets/images/doc5.png",
+      "image": "../src/assets/images/doc5.png",
       "speciality": "Neurologist",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -73,7 +73,7 @@
     {
       "_id": "doc6",
       "name": "Dr. Andrew Williams",
-      "image": "./assets/images/doc6.png",
+      "image": "../src/assets/images/doc6.png",
       "speciality": "Neurologist",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -87,7 +87,7 @@
     {
       "_id": "doc7",
       "name": "Dr. Christopher Davis",
-      "image": "./assets/images/doc7.png",
+      "image": "../src/assets/images/doc7.png",
       "speciality": "General physician",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -101,7 +101,7 @@
     {
       "_id": "doc8",
       "name": "Dr. Timothy White",
-      "image": "./assets/images/doc8.png",
+      "image": "../src/assets/images/doc8.png",
       "speciality": "Gynecologist",
       "degree": "MBBS",
       "experience": "3 Years",
@@ -115,7 +115,7 @@
     {
       "_id": "doc9",
       "name": "Dr. Ava Mitchell",
-      "image": "./assets/images/doc9.png",
+      "image": "../src/assets/images/doc9.png",
       "speciality": "Dermatologist",
       "degree": "MBBS",
       "experience": "1 Years",
@@ -129,7 +129,7 @@
     {
       "_id": "doc10",
       "name": "Dr. Jeffrey King",
-      "image": "./assets/images/doc10.png",
+      "image": "../src/assets/images/doc10.png",
       "speciality": "Pediatricians",
       "degree": "MBBS",
       "experience": "2 Years",
@@ -143,7 +143,7 @@
     {
       "_id": "doc11",
       "name": "Dr. Zoe Kelly",
-      "image": "./assets/images/doc11.png",
+      "image": "../src/assets/images/doc11.png",
       "speciality": "Neurologist",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -157,7 +157,7 @@
     {
       "_id": "doc12",
       "name": "Dr. Patrick Harris",
-      "image": "./assets/images/doc12.png",
+      "image": "../src/assets/images/doc12.png",
       "speciality": "Neurologist",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -171,7 +171,7 @@
     {
       "_id": "doc13",
       "name": "Dr. Chloe Evans",
-      "image": "./assets/images/doc13.png",
+      "image": "../src/assets/images/doc13.png",
       "speciality": "General physician",
       "degree": "MBBS",
       "experience": "4 Years",
@@ -185,7 +185,7 @@
     {
       "_id": "doc14",
       "name": "Dr. Ryan Martinez",
-      "image": "./assets/images/doc14.png",
+      "image": "../src/assets/images/doc14.png",
       "speciality": "Gynecologist",
       "degree": "MBBS",
       "experience": "3 Years",
@@ -199,7 +199,7 @@
     {
       "_id": "doc15",
       "name": "Dr. Amelia Hill",
-      "image": "./assets/images/doc15.png",
+      "image": "../src/assets/images/doc15.png",
       "speciality": "Dermatologist",
       "degree": "MBBS",
       "experience": "1 Years",
@@ -214,27 +214,27 @@
   "specialityData": [
     {
       "speciality": "General physician",
-      "image": "./assets/images/General_physician.svg"
+      "image": "../src/assets/images/General_physician.svg"
     },
     {
       "speciality": "Gynecologist",
-      "image": "./assets/images/Gynecologist.svg"
+      "image": "../src/assets/images/Gynecologist.svg"
     },
     {
       "speciality": "Dermatologist",
-      "image": "./assets/images/Dermatologist.svg"
+      "image": "../src/assets/images/Dermatologist.svg"
     },
     {
       "speciality": "Pediatricians",
-      "image": "./assets/images/Pediatricians.svg"
+      "image": "../src/assets/images/Pediatricians.svg"
     },
     {
       "speciality": "Neurologist",
-      "image": "./assets/images/Neurologist.svg"
+      "image": "../src/assets/images/Neurologist.svg"
     },
     {
       "speciality": "Gastroenterologist",
-      "image": "./assets/images/Gastroenterologist.svg"
+      "image": "../src/assets/images/Gastroenterologist.svg"
     }
   ]
 }
