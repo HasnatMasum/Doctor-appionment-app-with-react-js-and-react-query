@@ -5,6 +5,10 @@ const Doctor = ({ img, name, speciality }) => {
       initial={{ opacity: 0, x: 50 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
+      whileHover={{
+        y: -15,
+        transition: { duration: 0.2 },
+      }}
       transition={{ duration: 0.5 }}
       className="flex flex-col border-2 border-violet-200 rounded-md"
     >

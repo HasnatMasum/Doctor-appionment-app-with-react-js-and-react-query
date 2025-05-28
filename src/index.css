@@ -5,9 +5,14 @@
   font-family: "Outfit", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   font-family: "Dancing Script", cursive;
 }
+
 .navlist li a.active {
   @apply text-violet-600;
 }

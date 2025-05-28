@@ -14,7 +14,10 @@ const Navbar = () => {
     <div className="w-full fixed h-auto drop-shadow-md bg-white z-20">
       <div className=" flex mx-5 h-16 sm:mx-[10%] md:flex justify-between items-center">
         <div
-          onClick={() => navigate("/")}
+          onClick={() => {
+            navigate("/");
+            scrollTo(0, 0);
+          }}
           className="flex items-center cursor-pointer gap-2"
         >
           <img className="size-12" src={logo} alt="logo" />

@@ -20,9 +20,11 @@ const Header = () => {
             schedule your appointment hassle-free.
           </p>
         </div>
-        <Button className="bg-gray-50">
-          Book appointment <img src={assets.arrow_icon} alt="right arrow" />
-        </Button>
+        <a href="#speciality">
+          <Button className="bg-gray-50">
+            Book appointment <img src={assets.arrow_icon} alt="right arrow" />
+          </Button>
+        </a>
       </div>
       <div className="w-full md:w-1/2 md:relative">
         <img
